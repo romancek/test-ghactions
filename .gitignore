@@ -52,4 +52,8 @@ Mkfile.old
 dkms.conf
 
 !Makefile
-
+sample
+sample_debug
+SHA256SUM*
+version.h
+build/
