@@ -57,4 +57,4 @@ jobs:
           draft: false
           prerelease: false
           files: |
-            ./build/rpmbuild/RPMS/*.rpm
+            ./build/rpmbuild/RPMS/*/*.rpm
