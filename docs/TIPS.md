@@ -30,7 +30,7 @@
 ```yaml
 defaults:
   run:
-    shell: bash # <--- bash --noprofile --norc -eo pipefail {0} のエイリアス
+    shell: bash --noprofile --norc -eo pipefail {0}
 steps:
   - name: hoge
     run: true && false
