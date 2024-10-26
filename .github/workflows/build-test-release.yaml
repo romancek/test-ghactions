@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 defaults:
   run:
-    shell: bash --noprofile --norc -eo pipefail {0}
+    shell: bash
 permissions:
   contents: write
 jobs:
